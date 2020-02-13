@@ -1,8 +1,8 @@
 Cuaderno de cursos llevados durante el primer semestre del 2020.
 
-### Formato
+### Por Hacer
 
-* Los titulos se marcan con ### y los subtítulos con #### para el índice.
+nada por ahora...
 
 ### Cursos
 * [Bases de Datos II](/cursos/bases.md)

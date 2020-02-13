@@ -73,11 +73,13 @@ Hay dos tipos básicos:
 
 **Profesor:** Carlos Benavides
 
+**Correo:**  tec.benavides.profesor@gmail.com
+
 | Evaluación  | Peso |
 | :--- | :---: |
 | Tareas | % |
 | Laboratorios | % |
-| Exámenes | % |
+| Exámenes | 30 % |
 | Videos | % |
 | Proyectos | % |
 
