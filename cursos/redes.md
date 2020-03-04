@@ -1,5 +1,61 @@
 # Redes
 
+### Seguridad de Puertos
+
+Hay tres modos de seguridad de capa 2 en los puertos de todo switch:
+
+| Modo | Descripción |
+| :---: | :--- |
+| `protect` | No permite transmisión |
+| `restrict` | Registra una estadística con la cantidad de direcciones MAC erróneas |
+| `shutdown` | El puerto se apaga por completo en violación |
+
+En alguna puerto del switch, esto se registra de la siguiente manera:
+
+```
+switchport mode access
+switchport port-security
+switchport port-security mac-address sticky
+switchport port-security violation [protect | restrict | shutdown]
+```
+
+`switchport port-security mac-address sticky` escucha la primera dirección MAC y lo registra como la única permitida.
+
+### DHCP
+
+[DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) es un protocolo para automáticamente asignar una dirección IP a hosts desde un servidor de red local. El servidor encargado de DHCP debe tener una dirección IP estática.
+
+En caso de que un host no consiga una dirección IP cuando lo pide mediante ARP, entonces se autoasigna una dirección [APIPA](https://es.wikipedia.org/wiki/Automatic_Private_Internet_Protocol_Addressing).
+
+Cada red debería tener un solo servicio DHCP en general. Para asegurar esto, en los switches de red se puede configurar de la siguiente manera:
+
+```
+enable
+conf t
+ip dhcp snooping vlan 1
+int faX/X
+switchport mode access
+ip dhcp snooping trust
+```
+
+### Bloques Privados
+
+Estas no pueden ser usadas en internet, únicamente en redes locales.
+
+| Inicio  | Final |
+| :---: | :---: |
+| `10.0.0.0` | `10.255.255.255` |
+| `172.16.0.0` | `172.31.255.255` |
+| `192.168.0.0` | `192.168.255.255`|
+
+### Sub-redes y súper-redes
+
+Las sub-redes y súper-redes se determinan mediante la **máscara de red**. En la máscara de red no se pueden mezclar `0`s y `1`s, todos deben de estar a un lado o al otro. Entre más subredes, más direcciones se pierden 
+
+### Router
+
+Es un dispositivo de capa 3 que redirecciona paquetes entre redes y los lleva a su destino. Cada vez que se conecta algo al enrutador **se necesitan IDs de red distintos.** Para saber por dónde redireccionar los paquetes, tiene una tabla de enrutamiento que mappea una **red** con un **puerto** en el router. El router mata todos los paquetes de broadcasts de `255.255.255.255`.
+
 ### Direccionamiento IP
 
 Para transmitir información entre redes es necesario tener información tanto para reconocer la red y la máquina dónde se debe llevar la información. Para esto existe la capa 3 del modelo OSI, dónde el protocolo utilizado en la práctica es el * [**Internet Protocol**](https://en.wikipedia.org/wiki/Internet_Protocol):
@@ -7,17 +63,16 @@ Para transmitir información entre redes es necesario tener información tanto p
 ![Imágen IP](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ipv4_address.svg/300px-Ipv4_address.svg.png)
 
 Tienen asociados una clase para ordenarlas, así:
+
 ![Clases IP](https://labs.ripe.net/Members/olafur_gudmundsson/pre-1993-ip-addresses-1.png)
 
-* Para ser de clase A, la dirección debe comenzar con `0`.
-* Para ser de clase B, la dirección debe comenzar con `1 0`.
-* Para ser de clase C, la dirección debe comenzar con `1 1 0`.
+* Para ser de clase A, la dirección debe comenzar con `0`. La máscara de red por defecto es `255.0.0.0`
+* Para ser de clase B, la dirección debe comenzar con `1 0`. La máscara de red por defecto es `255.255.0.0`
+* Para ser de clase C, la dirección debe comenzar con `1 1 0`. La máscara de red por defecto es `255.255.255.0`
 
-**Dirección de Red:** Cuando los campos de hosts están todos en `0`, ese es el identificador de red. 
+**Dirección de Red:** Cuando los campos de hosts están todos en `0`, ese es el identificador de red.
 
-**Broadcast:** Dirección general reservada utilizada para comunicarse a todas las máquinas dentro de la misma red local dónde todos los campos de host están en `1`.
-
-Ningún host puede tener dirección igual a la dirección de red o broadcast.
+**Broadcast:** Dirección general reservada utilizada para comunicarse a todas las máquinas dentro de la misma red local dónde todos los campos de host están en `1`. Ningún host puede tener dirección igual a la dirección de red o broadcast.
 
 ### Colisiones
 

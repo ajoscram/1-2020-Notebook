@@ -1,3 +1,33 @@
+DB2 Postgresql: arquitectura y como se ejecuta una 
+
+### Arquitectura Oracle
+
+Se divide en general en 
+Procesos de base
+
+**Shared Global Area**
+
+1. **Shared SQL:** 
+2. **Database Buffer Cache:**
+3. **Redo Buffer Log:**
+
+**Archivos de base**
+
+**Archive**
+
+**Data files** Los archivos físicos escritos en disco dónde se guardan los datos.
+
+**Tablespace** 
+    
+  * Son una unidad lógica de almacenamiento que se encarga de ligar entre la lógica de SQL y los archivos físicos de la BD.
+  * Cada base de datos tiene al menos uno llamado `SYSTEM`. 
+  * Un tablespace puede pertenecer a solo una BD.
+  * Puede estar online o offline.
+
+**Segmentos**
+
+Todos los datos de la BD están almacenadas en segmentos. Hay 5 tipos de segmentos: **
+
 ### Joins
 
 Cláusulas para conbimar dos o más tablas. Recordatorio de joins:
