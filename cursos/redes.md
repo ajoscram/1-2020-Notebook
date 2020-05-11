@@ -1,5 +1,87 @@
 # Redes
 
+### Configuración de Routers
+
+Para configurar un router remotamente, hay varias maneras de conectase a él. Se puede configurar el acceso por distintos medios, así:
+
+**Contraseña en `enable`**
+
+```
+enable secret redes
+```
+
+**Consola Local**
+
+```
+line con 0
+username bena password redes
+login
+```
+
+**Telnet**
+
+```
+line vty 0 15
+username bena password redes
+login local
+```
+
+La seguridad en todo router puede ser sobrepasada con acceso físico al router. Se puede acceder cancelando el boot inicial, para acceder al menú `rommon`. Una vez adentro se puede hacer lo siguiente:
+
+```
+confreg 0x2142
+reset
+```
+
+Esto modifica el registro de booteo y lo cambia a bootear siempre con la configuración básica, eliminando toda la seguridad. Para regresarlo al modo original se puede resettear el registro así:
+
+```
+confreg 0x2102
+reset
+```
+
+La configuración de todo router se puede guardar en un servidor `tftp` para facilitar su acceso en el futuro. Esto se puede hacer mediante el comando `copy`, así:
+
+```
+copy running-config tftp
+```
+
+Para traerlo después se puede hacer de la siguiente manera:
+
+```
+copy tftp: running-config
+```
+
+### DHCP en Routers
+
+Primero para configurar la direccion cualquier interfaz de un router se puede hacer de la siguiente manera:
+
+```
+int faX/X
+add ip "direccion-ip" "mascara"
+```
+
+Luego se le puede decir a la interfaz la dirección del servidor DHCP correspondiente:
+
+```
+ip helper-address "direccion-server-dhcp"
+```
+
+Otra forma sería utilizar el mismo router como el servidor DHCP. Primero se crea otro pool de direcciones DHCP para cada red en el router, así:
+
+```
+ip dhcp pool "nombre-pool"
+network "direccion-ip" "mascara"
+default-router "direccion-gateway"
+dns-server "direccion-servidor-dns"
+```
+
+Luego, por cada otro servidor en la red, se debería asegurar que el DHCP no entregue sus direcciones. Esto se puede hacer excluyéndolas del servicio DHCP, así: 
+
+```
+ip dhcp excluded-address "direccion-ip"
+```
+
 ### Seguridad de Puertos
 
 Hay tres modos de seguridad de capa 2 en los puertos de todo switch:
@@ -50,7 +132,7 @@ Estas no pueden ser usadas en internet, únicamente en redes locales.
 
 ### Sub-redes y súper-redes
 
-Las sub-redes y súper-redes se determinan mediante la **máscara de red**. En la máscara de red no se pueden mezclar `0`s y `1`s, todos deben de estar a un lado o al otro. Entre más subredes, más direcciones se pierden 
+Las sub-redes y súper-redes se determinan mediante la **máscara de red**. En la máscara de red no se pueden mezclar `0`s y `1`s, todos deben de estar a un lado o al otro. Entre más subredes, más direcciones se pierden.
 
 ### Router
 
@@ -58,7 +140,7 @@ Es un dispositivo de capa 3 que redirecciona paquetes entre redes y los lleva a 
 
 ### Direccionamiento IP
 
-Para transmitir información entre redes es necesario tener información tanto para reconocer la red y la máquina dónde se debe llevar la información. Para esto existe la capa 3 del modelo OSI, dónde el protocolo utilizado en la práctica es el * [**Internet Protocol**](https://en.wikipedia.org/wiki/Internet_Protocol):
+Para transmitir información entre redes es necesario tener información tanto para reconocer la red y la máquina dónde se debe llevar la información. Para esto existe la capa 3 del modelo OSI, dónde el protocolo utilizado en la práctica es el [**Internet Protocol**](https://en.wikipedia.org/wiki/Internet_Protocol):
 
 ![Imágen IP](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ipv4_address.svg/300px-Ipv4_address.svg.png)
 
@@ -190,6 +272,8 @@ Dependiendo del direccionamiento, las redes pueden ser:
 **Correo:**  tec.benavides.profesor@gmail.com
 
 **Correo Asistente:** asistente.redes@outlook.com
+
+**Link del aula:** [https://meet.jit.si/IC7602-1-2](https://meet.jit.si/IC7602-1-2)
 
 [**Link del Drive**](https://drive.google.com/drive/folders/1s_ocyGvy4Yoxszav7TibZhTzir_xlSDG)
 

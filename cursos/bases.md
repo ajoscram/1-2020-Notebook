@@ -1,9 +1,20 @@
-DB2 Postgresql: arquitectura y como se ejecuta una 
+# Bases de Datos II
+
+### Bases de Datos Multimedia
+
+La importancia de las bases de datos multimedia (MM-DBMS) se debe a los cambios de las tecnologías. **Datos multimedia** se refieren a un rango de diferentes tipos de datos: **documentos, imágenes, audio, o video**. Hay varios retos a cumplir para manejar una de estas bases de datos:
+  * **Tiempo:** El tiempo no puede correr hacia atrás 
+  * **Requerimientos Básicos:** Integración, independencia de datos, control de concurrencia, consultas, almacenamiento eficiente.
+  * **Presentación y entrega:** 
 
 ### Arquitectura Oracle
 
 Se divide en general en 
 Procesos de base
+
+**System Global Area**
+
+**Program Global Area**
 
 **Shared Global Area**
 
