@@ -1,4 +1,49 @@
 # Bases de Datos II
+[Link de Zoom](https://zoom.us/j/99815087244)
+
+### Bases de Datos Distribuidas
+
+Administra el almacenamiento y procesamiento de dato relacionados de forma lógica, interconectados por varios sistemas de computación. Pueden ser de dos tipos:
+* **Homogéneas:** Toda máquina en el entorno utiliza la misma tecnología, tanto software ccomo hardware.
+* **Heterogéneas:** Se mezclan tecnologías DBMS de software y/o máquinas.
+
+**Características:**
+
+* Interface de aplicaciones para interactuar con el usuario, aplicaciones, etc.
+* Transparencia de distribución, transacciones, fallas, peformance y heterogeneidad. El usuario debe sentir que existe una única base de datos.
+
+**Ventajas:**
+* Los datos se encuentran cerca del sitio de demanda
+* Mejora las comunicaciones
+* Interfaces user-friendly
+* Reduce el costo de operación
+* No tiene un punto de falla único
+* Independencia de procesador
+
+**Desventajas:**
+* Dificultad tecnológica
+* Es bastante más caro
+* Seguridad
+* Backups
+* Recuperación
+* Complejidad de administración y control
+* Requerimientos de almacenamiento intrementados
+
+**Procesamiento Distribuido:** La base de datos está en un solo sitio, pero cada otro sitio puede acceder a los datos y hacer algo con ellos.
+
+### Administración de Usuarios
+
+* Cada base de datos tiene una lista de usuarios.
+* Se puede realizar autenticación por: *base de datos* ó *sistema operativo*.
+
+##### Usuarios SQLServer
+* Enforce password expiration
+* Enforce passwoord policy
+* Must change password
+* Quitar acceso a la cuenta `GUEST`
+* Permiso `CONTROL SERVER`
+* Un **login** es una cuenta individual de usuario para ingresar a una base de datos. El usuario se mapea a un login del servidor. Se pueden crear usuarios dependientes o no del login
+* Se borran mediante `DROP USER`
 
 ### Bases de Datos Multimedia
 

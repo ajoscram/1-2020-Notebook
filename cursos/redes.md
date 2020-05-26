@@ -1,5 +1,19 @@
 # Redes
 
+### Rutas estáticas
+
+Una ruta estática se refiere a indicarle a un router directamente por dónde enviar paquetes destinados a una red no directamente conectada. Se puede hacer mediante el siguiente comando:
+
+```
+enable
+config t
+ip route [red] [mascara] [interfaz salida | ip salida] [métrica]
+```
+
+* La `red` y `mascara` corresponden a la red no directamente conectada.
+* La `interfaz o IP de salida` debería corresponder a una directamente conectada al router.
+* La `métrica` define la prioridad de la ruta a tomar en caso de tener varias a la misma red. Las rutas directamente conectadas tienen un valor de `0` por default. Las rutas estáticas tienen un `1`. Se puede especificar el valor de la métrica al enrutamiento en una ruta estática para priorizar una ruta sobre otra.
+
 ### Configuración de Routers
 
 Para configurar un router remotamente, hay varias maneras de conectase a él. Se puede configurar el acceso por distintos medios, así:

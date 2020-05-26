@@ -1,3 +1,5 @@
+# Investigación de Operaciones
+
 ### Información General
 
 **Codigo:** IC6400
@@ -23,11 +25,11 @@
 
 **Exámenes**
 
-Los exámenes se entregan martes para resolver hasta el jueves entrante. Son en parejas. El día de recepción de examen **no hay clases**.
+Los exámenes se entregan jueves para entregar el lunes siguiente máximo a la media noche de ese día. Son en parejas. El día de recepción de examen **no hay clases**.
 
 | Parcial  | Recepción | Entrega |
 | :--- | :---: | :---: |
 | I | 3 marzo | 5 marzo |
-| II | 31 marzo | 2 abril |
-| III | 5 mayo | 7 mayo |
-| IV | 2 junio | 4 junio |
+| II | 11 junio | 15 junio |
+| III | 2 julio | 6 julio |
+| IV | 23 julio | 27 julio |

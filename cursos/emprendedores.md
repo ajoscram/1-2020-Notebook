@@ -1,5 +1,41 @@
 # Desarrollo de Emprendedores
 
+### Mercados Verticales
+
+Mercados dónde 
+
+### Desarrollo Económico
+
+Capacidad de los países para mantener la prosperidad o bienestar económico de la población general. Se puede medir mediante el **Producto Interno Bruto**. Este es el valor de los bienes y servicios *finales* producidos por una determinada economía en un determinado periodo de tiempo.
+
+### Propuesta de Valor
+
+Para generar una propuesta de valor:
+* **Trabajos del cliente:** Liste las tareas **funcionales, emocionales, y sociales** que sus clientes debían hacer previo a su solución.
+* **Dolores:** Identifique **bloqueos y problemas** que sus clientes puedan toparse tratando de completar sus trabajos.
+* **Ganancias del cliente:** Describa los **resultados positivos** que el cliente espera cuando el trabajo se realiza.
+
+Una vez configurado el perfil del cliente:
+* **Productos y servicios:** Nombre **productos y servicios** que ofrece su propuesta de valor para completar el trabajo.
+* **Aliviadores de dolor:** Describa cómo sus productos y servicios pueden minimizar los **bloqueos y problemas** de los clientes.
+* **Generadores de ganancia:** Describa por encima en que formas su producto o servicio genera ganancias para el negocio.
+
+### Lean Canvas
+
+[Video explicativo](https://www.youtube.com/watch?v=bii8wv3ZHiY)
+
+Se crea un mapa gráfco para entender los componentes del negocio. Se divide en las siguientes partes:
+
+* **Problema:** El problema al que se le está dando solución. Identificar al menos tres características del problema. Se deberían también listar **alternativas existentes**.
+* **Segmentos de clientes:** Separar **usuarios** y **clientes**. Identificar el perfil de los **primeros usuarios** de usar el producto y dar feedback. Segmentar los arquetipos de usuario por perfil.
+* **Propuesta de valor:** Lo que diferencia la solución desarrollada del resto del mercado. La implementación particular de la solución.
+* **Solución:** Características de la solución a ofrecer, al menos tres. El resultado de la herramienta a desarrollar. 
+* **Canales:** Medios de comunicación para comunicarse con clientes existentes y potenciales.
+* **Ingresos:** Se define cómo va a ganar dinero el start-up.
+* **Estructuras de costos:** Todo lo que se debe gastar para poner en marcha y mantener el negocio.
+* **Métricas clave:** Key performance indicators. Son aspectos medibles que indican el estado del negocio. Se recomienda manejarlas semanalmente.
+* **Ventaja competitiva:** Algo especial acerca de su idea que sus competidores no pueden copiar o obtener de otras formas.
+
 ### Elevator Pitch
 
 Un discurso breve y persuasivo que se utiliza para despertar interés en lo que hace su organización. También puede usarlos para crear interés en un proyecto, idea o producto, o en usted mismo. Un buen **elevator pitch** no debe durar más que un corto viaje en ascensor de 20 a 30 segundos, de ahí el nombre. Deben ser interesantes, memorables y concisos. También necesitan explicar qué lo hace a usted, o su organización, producto o idea, único. En el caso del curso el pitch responde a las siguientes preguntas:
