@@ -2,7 +2,7 @@
 
 ### Información General
 
-[Carta del curso](recursos/IC-7841_Proyecto_de_Ingenieria_de_Software-G1_IIsem2020_CA.pdf ':ignore')
+[Carta del curso](recursos/proyecto/IC-7841_Proyecto_de_Ingenieria_de_Software-G1_IIsem2020_CA.pdf ':ignore')
 
 | | |
 | :--- | :--- |

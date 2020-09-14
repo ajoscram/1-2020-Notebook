@@ -1,8 +1,8 @@
 - [**Portada**](/)
 - **2 Semestre 2020:**
-    - [Proyecto de Ingeniería de Software](/cursos/2020-2/proyecto.md)
     - [Inteligencia Artificial](/cursos/2020-2/ia.md)
     - [Probabilidades](/cursos/2020-2/proba.md)
+    - [Proyecto de Ingeniería de Software](/cursos/2020-2/proyecto.md)
 - **1 Semestre 2020:**
     - [Bases de Datos II](/cursos/2020-1/bases.md)
     - [Desarrollo de Emprendedores](/cursos/2020-1/emprendedores.md)

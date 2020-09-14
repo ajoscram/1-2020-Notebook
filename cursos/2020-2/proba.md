@@ -5,7 +5,7 @@
 | Sem | Tema | Tarea | Videos | 
 | :---: | :--- | :---: | :---: |
 | 1 | [Teoría de Conjuntos](recursos\proba\materia\Semana1_Solucion_TeoriaConjuntos2020.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSemana1.pdf ':ignore') | [🎞️](https://youtu.be/vCd9oIlu5Tk) [🎞️](https://youtu.be/NLdtPc0guFA) |
-| 2 | [Espacios Muestrales y Regla de Laplace](recursos\proba\materia\Semana2_Solucion.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/bjLnFE_CbFg) [🎞️](https://youtu.be/xjZGYEMU7Ls) [🎞️](https://youtu.be/YXg1514bO_c) |
+| 2 | [Espacios Muestrales y Regla de Laplace](recursos\proba\materia\Semana2_Solucion.pdf ':ignore') | [📝](recursos\proba\tareas\Tarea_2.pdf ':ignore') | [🎞️](https://youtu.be/bjLnFE_CbFg) [🎞️](https://youtu.be/xjZGYEMU7Ls) [🎞️](https://youtu.be/YXg1514bO_c) |
 | 3 | [Probabilidad Condicional y Regla de Bayes](recursos\proba\materia\Semana3_2017_ProductoCondicionalTotalBayes_resuelto.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/IfH7GdEZ9R4) [🎞️](https://youtu.be/cwr9WcLG7bI) |
 | 4 | [Combinatoria Elemental](recursos\proba\materia\Semana4_Solucion.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/3jW3g7jfQuc) [🎞️](https://youtu.be/4fy9u6l_-Ok) [🎞️](https://youtu.be/seDovNqsjv4) [🎞️]() |
 | 5 | [Objetos Indistinguibles](recursos\proba\materia\Semana5_Solucion.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/raum73br0kA) [🎞️](https://youtu.be/bsZNypnKza0) [🎞️](https://youtu.be/eW-1u9FxB4Y) |
