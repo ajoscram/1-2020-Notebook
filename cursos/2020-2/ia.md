@@ -1,4 +1,73 @@
+### Algoritmos de búsqueda
 
+**Búsquedas no informadas o ciegas:**
+* **Búsqueda en profundidad:** Dado un nodo visitado, se selecciona uno de sus hijos y se visita hasta topar la solución o recorrer todo el árbol. Se debe mantener una lista de los nodos visitados para evitar ciclos. 
+    * Debe recordar todos los nodos visitados
+    * Se asume que cualquier ruta es tan buena como las demás
+* **Búsqueda en anchura:** Se visitan los nodos de un árbol por cada nivel desde la raíz.
+
+**Búsquedas informadas o heurísticas:**
+* **Escalada simple (Hill Climbing):**
+    * **Maximo local:** Es un estado que es mejor que sus vecinos.
+    * **Máximo global:** Es el mejor estado posible de todos.
+    * **Shoulder:** 
+* Steepest Ascend Hill climbing
+* Stochastic Hill Climbing
+* Búsqueda en haz
+* Búsqueda en mejor primero
+
+Las estrategias se evalúan mediante:
+* Completitud
+* Complejidad temporal
+* Complejidad espacial
+* Optimaalidad
+
+**Quiz:** Exposicion ejemplo grafico, pseudocodigo, codigo sobre el ejemplo grafico
+
+### Algebra Lineal
+
+Vectores
+
+### Entorno
+
+Los entornos de un agente son todo factor externo al agente que influencian su accionar y que son afectados por sus acciones. Estos pueden ser:
+
+| Característica | Definición |
+| :--- | :--- |
+| **Observables** | tiene el acceso al entorno **completo** en cualquier momento dado |
+| **Parcialmente observable** | tiene acceso limitado al entorno por recursos o ruido en el entorno |
+|||
+| **Monoagente** | hay un único agente a la vez en el entorno |
+| **Multiagente** | hay múltiples agentes a la vez |
+|||
+| **Competitivo** | hay varios agente compitiendo |
+| **Colaborativo** | hay varios agentes trabajando por un objetivo común |
+|||
+| **Determinístico** | el siguiente estado del ambiente es determinado por el estado actual y la acción del agente |
+| **Estocástico** | asociado a probabilidades |
+|||
+| **Episódico** | la siguiente acción del agente no depende del anterior |
+| **Secuencial** | la siguiente acción del agente depende de acciones previas |
+|||
+| **Dinámico** | el entorno cambia mientras el agente está deliberando |
+| **Estático** | el entorno no cambia mientras el agente delibera |
+|||
+| **Discreto** | | 
+| **Contínuo** | |
+|||
+| **Conocidos** | |
+| **Desconocidos** | |
+
+Por ejemplo para los siguientes agentes se pueden analizar sus entornos:
+
+| Característica | Solitario | Compra por Internet | Taxi Autónomo | Ajedrez con Reloj | Diagnóstico Médico | Controlador Refinería |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Observable** | No | Sí | No | Sí | No | No |
+| **Determinista** | No | Sí | No | No | No | No |
+| **Secuencial** | Sí | Sí | Sí | Sí | Sí | Sí |
+| **Estático** | Sí | No | No | Sí | Sí | No |
+| **Discreto** | Sí | Sí | No | Sí | Sí | No |
+| **Mono-agente** | Sí | Sí | No | No | Sí | Sí |
 
 ### Agentes
 
@@ -28,34 +97,7 @@ En general, para diseñar un agente se deben tomar en cuenta los **PEAS** (perfo
 | Actuators | Las ruedas que lo mueven por la calle, los frenos, las luces, bolsas de aire, puertas, interfaces de usuario |
 | Sensors | Cámaras, sensores de proximidad, interfaces de usuario, sensores de humedad, acelerómetro, sensor de temperatura, sensor de cinturón |
 
-Los entornos de un agente pueden ser:
-
-| Característica | Definición |
-| :--- | :--- |
-| **Observables** | tiene el acceso al entorno **completo** en cualquier momento dado |
-| **Parcialmente observable** | tiene acceso limitado al entorno por recursos o ruido en el entorno |
-|||
-| **Monoagente** | hay un único agente a la vez en el entorno |
-| **Multiagente** | hay múltiples agentes a la vez |
-|||
-| **Competitivo** | hay varios agente compitiendo |
-| **Colaborativo** | hay varios agentes trabajando por un objetivo común |
-|||
-| **Determinístico** | el siguiente estado del ambiente es determinado por el estado actual y la acción del agente |
-| **Estocástico** | asociado a probabilidades |
-|||
-| **Episódico** | la siguiente acción del agente no depende del anterior |
-| **Secuencial** | la siguiente acción del agente depende de acciones previas |
-|||
-| **Dinámico** | el entorno cambia mientras el agente está deliberando |
-| **Estático** | el entorno no cambia mientras el agente delibera |
-|||
-| **Discreto** | | 
-| **Contínuo** | |
-|||
-| **Conocidos** | |
-| **Desconocidos** | |
-
+---
 
 leer seccion de agentes del libro de IA, task environments
 
@@ -71,7 +113,6 @@ Disciplinas relacionadas a IA:
     Filosofía (Racionalismo, Dualismo)
     Neurociencia
 
-
 AGENTES:   
     se busca que comporten 
 
@@ -86,7 +127,6 @@ INTELIGENCIA ARTIFICIAL:
         Tareas muy peligrosas, o con mucha precisión
 
 Metodología del curso
-
 
 Primera parte clase magistral, segunda ejercicios
 
