@@ -9,7 +9,7 @@
 | 3 | [Probabilidad Condicional y Regla de Bayes](recursos\proba\materia\Semana3_2017_ProductoCondicionalTotalBayes_resuelto.pdf ':ignore') | [📝](recursos\proba\tareas\Tarea3.pdf ':ignore') | [🎞️](https://youtu.be/IfH7GdEZ9R4) [🎞️](https://youtu.be/cwr9WcLG7bI) |
 | 4 | [Combinatoria Elemental](recursos\proba\materia\Semana4_Solucion.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSemana4.pdf ':ignore') | [🎞️](https://youtu.be/3jW3g7jfQuc) [🎞️](https://youtu.be/4fy9u6l_-Ok) [🎞️](https://youtu.be/seDovNqsjv4) [🎞️]() |
 | 5 | [Objetos Indistinguibles](recursos\proba\materia\Semana5_Solucion.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSemana5.pdf ':ignore') | [🎞️](https://youtu.be/raum73br0kA) [🎞️](https://youtu.be/bsZNypnKza0) [🎞️](https://youtu.be/eW-1u9FxB4Y) |
-| 6 | [Práctica Parcial 1](recursos\proba\materia\Solucionario_Lectura_semana_6_Práctica.pdf ':ignore') | [📝]( ':ignore') | *No hay* |
+| 6 | [Práctica Parcial 1](recursos\proba\materia\Solucionario_Lectura_semana_6_Práctica.pdf ':ignore') | [📝](recursos\proba\tareas\tareaSemana6.pdf ':ignore') | *No hay* |
 |
 | 7 | [Variables Aleatorias](recursos\proba\materia\semana7_II2017_VAD_SOLU.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/D6q5rn-tEeI) |
 | 8 | [Distribución Binomial y Geométrica](recursos\proba\materia\semana8_II2017_SOLU_Binomial_Geométrica.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/SPr5mc7vbBc) [🎞️](https://youtu.be/8_c6_FNen3o) [🎞️](https://youtu.be/K4TdphFhagE) [🎞️](https://youtu.be/8zUM8j6Pbck) |
