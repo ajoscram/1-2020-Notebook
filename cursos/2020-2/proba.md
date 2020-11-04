@@ -11,8 +11,8 @@
 | 5 | [Objetos Indistinguibles](recursos\proba\materia\Semana5_Solucion.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSemana5.pdf ':ignore') | [🎞️](https://youtu.be/raum73br0kA) [🎞️](https://youtu.be/bsZNypnKza0) [🎞️](https://youtu.be/eW-1u9FxB4Y) |
 | 6 | [Práctica Parcial 1](recursos\proba\materia\Solucionario_Lectura_semana_6_Práctica.pdf ':ignore') | [📝](recursos\proba\tareas\tareaSemana6.pdf ':ignore') | *No hay* |
 |
-| 7 | [Variables Aleatorias](recursos\proba\materia\semana7_II2017_VAD_SOLU.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/D6q5rn-tEeI) |
-| 8 | [Distribución Binomial y Geométrica](recursos\proba\materia\semana8_II2017_SOLU_Binomial_Geométrica.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/SPr5mc7vbBc) [🎞️](https://youtu.be/8_c6_FNen3o) [🎞️](https://youtu.be/K4TdphFhagE) [🎞️](https://youtu.be/8zUM8j6Pbck) |
+| 7 | [Variables Aleatorias](recursos\proba\materia\semana7_II2017_VAD_SOLU.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSem7-8.pdf ':ignore') | [🎞️](https://youtu.be/D6q5rn-tEeI) |
+| 8 | [Distribución Binomial y Geométrica](recursos\proba\materia\semana8_II2017_SOLU_Binomial_Geométrica.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSem7-8.pdf ':ignore') | [🎞️](https://youtu.be/SPr5mc7vbBc) [🎞️](https://youtu.be/8_c6_FNen3o) [🎞️](https://youtu.be/K4TdphFhagE) [🎞️](https://youtu.be/8zUM8j6Pbck) |
 | 9 | [Distribución Hipergeométrica y de Poisson](recursos\proba\materia\semana9_II2017_SOLU_Hipergeom_Poisson.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/IdfvSBP_KO0) |
 | 10 | [Variables Aleatorias Contínuas](recursos\proba\materia\semana10_SOLU_II2017_VAC.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/al2dE0bv9PA) |
 | 11 | [Práctica Parcial 2]() | [📝]() | *No hay* |
@@ -35,8 +35,10 @@
 | Correo | mmarin@itcr.ac.cr |
 | Teléfono | 82593973 |
 | Horario de consulta | Martes de 7a.m. a 11a.m. |
-| Link del aula | [https://us02web.zoom.us/j/6251207225](https://us02web.zoom.us/j/6251207225) |
-| Contraseña | 5wAKZN |
+| Link del aula viejo | [https://us02web.zoom.us/j/6251207225](https://us02web.zoom.us/j/6251207225) |
+| Contraseña vieja | 5wAKZN |
+| Link del aula nuevo | [https://itcr.zoom.us/j/82385838658](https://itcr.zoom.us/j/82385838658) |
+| Contraseña nueva | Proba2404 |
 
 El curso será evaluado así:
 

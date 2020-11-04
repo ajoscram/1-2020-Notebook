@@ -1,3 +1,46 @@
+```
+Clase 30/10/2020
+
+perceptrón
+    se usan para resolver poblemas de clasificación binaria
+    sinápsis es una aproximación neuronal
+    recibe caracteristicas (X)
+    pesos
+
+    bias: regresión lineal
+    
+    función de activación
+    
+    pasan por algo que excita o inhibe a neuronas
+    saco la sumatoria de esos valores
+    y dependiendo del bias se mappea bi
+
+    angulo entre dos vectores
+
+Algoritmo de aprendizaje de perceptrón
+    (perceptron algorithm.png)
+
+
+desviación estándar
+```
+
+```
+Clase 23/10/2020
+
+desviación estándar
+
+descenso del gradiente
+    (pasos_decenso_gradiente.png)
+
+Regresión Logística Multinomial
+
+Regresión Logística Ordinal
+
+Sigmoide
+
+```
+!> recordar esto
+
 ### Algoritmos de búsqueda
 
 **Búsquedas no informadas o ciegas:**
