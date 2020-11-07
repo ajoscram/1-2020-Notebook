@@ -8,3 +8,7 @@ Este cuaderno digital incluye todos mis apuntes tomados a través de diferentes 
 * **Carrera:** Ingeniería en Computación
 * **Área preferida:** Desarrollo de proyectos de software
 * **Aspecto preferido:** Diseño y arquitectura de software
+
+### Recursos {docsify-ignore}
+Algunos recursos necesarios para la edición de este cuaderno:
+* [Docsify KaTeX](https://upupming.site/docsify-katex/docs/#/supported)

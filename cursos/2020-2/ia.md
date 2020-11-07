@@ -1,4 +1,24 @@
 ```
+Clase 06/11/2020
+
+Redes Neuronales
+
+Un perceptrón es una red neuronal de una sola capa
+
+Se pueden encadenar varias capas juntas para crear una red neuronal.
+Las capas que no interactúan con su entorno (o sea, que están en el medio) se llaman capas ocultas.
+Bias
+Forward propagation
+Backward propagation
+    Atribuir el valor de error a cada neurona
+    Las neuronas más activas son las que se culpan más
+Cost function
+Gradient descent
+funcion de activación
+
+```
+
+```
 Clase 30/10/2020
 
 perceptrón
