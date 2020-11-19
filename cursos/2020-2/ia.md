@@ -1,4 +1,14 @@
 ```
+Clase 13/11/2020
+
+Funciones de activación
+Se utilizan para determnar la salida de la red neuronal, mappeando los valores resultantes entre 0 y 1, -1 y 1, etc.
+
+Dos tipos:
+    Lineales
+```
+
+```
 Clase 06/11/2020
 
 Redes Neuronales
