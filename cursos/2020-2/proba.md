@@ -13,9 +13,9 @@
 |
 | 7 | [Variables Aleatorias](recursos\proba\materia\semana7_II2017_VAD_SOLU.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSem7-8.pdf ':ignore') | [🎞️](https://youtu.be/D6q5rn-tEeI) |
 | 8 | [Distribución Binomial y Geométrica](recursos\proba\materia\semana8_II2017_SOLU_Binomial_Geométrica.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSem7-8.pdf ':ignore') | [🎞️](https://youtu.be/SPr5mc7vbBc) [🎞️](https://youtu.be/8_c6_FNen3o) [🎞️](https://youtu.be/K4TdphFhagE) [🎞️](https://youtu.be/8zUM8j6Pbck) |
-| 9 | [Distribución Hipergeométrica y de Poisson](recursos\proba\materia\semana9_II2017_SOLU_Hipergeom_Poisson.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/IdfvSBP_KO0) |
-| 10 | [Variables Aleatorias Contínuas](recursos\proba\materia\semana10_SOLU_II2017_VAC.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/al2dE0bv9PA) |
-| 11 | [Práctica Parcial 2]() | [📝]() | *No hay* |
+| 9 | [Distribución Hipergeométrica y de Poisson](recursos\proba\materia\semana9_II2017_SOLU_Hipergeom_Poisson.pdf ':ignore') | [📝](recursos\proba\tareas\TareaSemana9-10-11.pdf ':ignore') | [🎞️](https://youtu.be/IdfvSBP_KO0) |
+| 10 | [Variables Aleatorias Contínuas](recursos\proba\materia\semana10_SOLU_II2017_VAC.pdf ':ignore') | [📝]( recursos\proba\tareas\TareaSemana9-10-11.pdf ':ignore') | [🎞️](https://youtu.be/al2dE0bv9PA) |
+| 11 | [Práctica Parcial 2]() | [📝](recursos\proba\tareas\TareaSemana9-10-11.pdf ':ignore') | *No hay* |
 |
 | 12 | [Distribución Normal](recursos\proba\materia\semana12_Solu_Normal.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/1D-DSh22Fpg) |
 | 13 | [Otras Distribuciones de Probabilidad Contínua](recursos\proba\materia\Semana13_SOLU_Otras_VAC.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/p6eqD8NrNrw) [🎞️](https://youtu.be/qTafWIKAOV8) [🎞️](https://youtu.be/exJiuy_hLms) |

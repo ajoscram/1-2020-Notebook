@@ -154,3 +154,47 @@
 #### Aplicar {docsify-ignore}
 * Curriculum a: reclutamiento@bdconsultores.com
 * Asunto: Práctica Profesional 2021
+
+---
+
+### EOS Costa Rica
+
+#### Características {docsify-ignore}
+
+#### Aplicar {docsify-ignore}
+
+---
+
+### Vauxoo
+
+#### Características {docsify-ignore}
+* Desarrollan ERPs, como Odoo (software de gestión empresarial)
+* Trabajo remoto 100%
+* Hacen el ciclo de vida de software completo en cada proyecto.
+* Usan Scrumban
+* Aprendizaje de tecnologías open source
+
+#### Aplicar {docsify-ignore}
+* Revisar jobs bajo vauxoo.com
+* Preguntas o consultas a katia@vauxoo.com
+
+---
+
+### Estudio Manatí 👁️
+
+#### Características {docsify-ignore}
+* Software libre: Drupal + React
+* **Fuerte enfoque en valores y mejora del ser humano**
+* Capacitación al ingresar y anual
+* Teletrabajo
+* Horario flexible
+* Vacaciones ilimitadas
+* Agilismo
+* Empresa remota 100%
+
+#### Aplicar {docsify-ignore}
+* Junior y Mid Backend Developer
+* Junios Frontend Developer
+* Más información en: https://www.estudiomanati.com/empleos/
+* Más preguntas con: beto@estuiomanati.com
+* Enlace a la charla: https://drive.google.com/file/d/12Gsvlx0SstVW5J_e2euuvQL8cB2CbUTQ/view
