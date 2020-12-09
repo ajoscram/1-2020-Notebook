@@ -69,7 +69,8 @@ Regresión Logística Ordinal
 Sigmoide
 
 ```
-!> recordar esto
+
+---
 
 ### Algoritmos de búsqueda
 
@@ -95,19 +96,87 @@ Las estrategias se evalúan mediante:
 * Complejidad espacial
 * Optimaalidad
 
-**Quiz:** Exposicion ejemplo grafico, pseudocodigo, codigo sobre el ejemplo grafico
+---
 
-### Algebra Lineal
+### Álgebra Lineal
 
-Vectores
+##### Vectores
+
+Un **vector** es una cantidad que tiene dirección y magnitud, usualmente denotado como su nombre con una flecha arriba, así: $\vec{v}$. Un vector existe en un espacio vectorial, y guarda el punto de desplazamiento desde el origen en un arreglo de una dimensión. Por tanto el dominio de todos los vectores será $\R^{n}$, donde $n$ es el total de dimensiones del espacio vectorial.
+
+Los vectores se pueden **sumar** y **restar**. Siendo $\vec{a}, \vec{v} \in \R^n$ dos vectores cualquiera, estas operaciones están definidas así:
+
+?> $ 
+\vec{a} \pm \vec{v} =
+    \begin{pmatrix}
+        \vec{a}_1 \pm \vec{v}_1 \\
+        \vec{a}_2 \pm \vec{v}_2 \\
+        ...\\
+        \vec{a}_n \pm \vec{v}_n \\
+    \end{pmatrix} 
+$
+
+Los vectores también se pueden **multiplicar** (o escalar) mediante **escalares**, en otras palabras un número. Siendo $\alpha \in \R$ un número, entonces esa multiplicación sería:
+
+?> $ 
+\alpha \cdot \vec{a} =
+    \begin{pmatrix}
+        \alpha \cdot \vec{a}_1\\
+        \alpha \cdot \vec{a}_2\\
+        ...\\
+        \alpha \cdot \vec{a}_n\\
+    \end{pmatrix} 
+$
+
+También está definido el **producto punto**. Su resultado es un **escalar**. La operación es así:
+
+?> $ \vec{a} \cdot \vec{v} = \sum\limits_{i = 1}^n \vec{a}_i \cdot \vec{v}_i = \vec{a}_1 \cdot \vec{v}_1 + \vec{a}_2 \cdot \vec{v}_2 + ... + \vec{a}_n \cdot \vec{v}_n$
+
+Cabe recalcar que si se piensa en los vectores como matrices, esta operación es equivalente a la multiplicación matricial:
+
+?> $\vec{a} \cdot \vec{v}^T$
+
+##### Matrices
+
+Las matrices son arreglos $n$-dimensionales de números, usualmente denotadas con una letra mayúscula. Por ejemplo, sea una matriz $A \in \R^{n \times m}$, entonces esa matriz serán $n$ filas por $m$ columnas de números.
+
+Las matrices se pueden **sumar** y **restar** igual que los vectores. Sean $A,B  \in \R^{n \times m}$ dos matrices cualquiera, entonces estas operaciones serían:
+
+?> $ 
+A \pm B =
+    \begin{pmatrix}
+        A_{1,1} \pm B_{1,1} & A_{1,2} \pm B_{1,2} & ... & A_{1,m} \pm B_{1,m}\\
+        A_{2,1} \pm B_{2,1} & A_{2,2} \pm B_{2,2} & ... & A_{2,m} \pm B_{2,m}\\
+        ... & ... & ... & ...\\
+        A_{n,1} \pm B_{n,1} & A_{n,2} \pm B_{n,2} & ... & A_{n,m} \pm B_{n,m}\\
+    \end{pmatrix} 
+$
+
+Las matrices también se pueden escalar igual que los vectores:
+
+?> $ 
+\alpha \cdot A =
+    \begin{pmatrix}
+        \alpha \cdot A_{1,1} & \alpha \cdot A_{1,2} & ... & \alpha \cdot A_{1,m}\\
+        \alpha \cdot A_{2,1} & \alpha \cdot A_{2,2} & ... & \alpha \cdot A_{2,m}\\
+        ... & ... & ... & ...\\
+        \alpha \cdot A_{n,1} & \alpha \cdot A_{n,2} & ... & \alpha \cdot A_{n,m}\\
+    \end{pmatrix} 
+$
+
+
+
+---
 
 ### Entorno
 
-Los entornos de un agente son todo factor externo al agente que influencian su accionar y que son afectados por sus acciones. Estos pueden ser:
+##### ¿Qué es un entorno?
+
+Los entornos de un agente son todo factor externo al agente que influencian su accionar y que son afectados por sus acciones. Estos pueden clasificados según sus características de las siguientes formas:
 
 | Característica | Definición |
 | :--- | :--- |
-| **Observables** | tiene el acceso al entorno **completo** en cualquier momento dado |
+| **Observable** | tiene el acceso al entorno **completo** en cualquier momento dado |
 | **Parcialmente observable** | tiene acceso limitado al entorno por recursos o ruido en el entorno |
 |||
 | **Monoagente** | hay un único agente a la vez en el entorno |
@@ -125,31 +194,22 @@ Los entornos de un agente son todo factor externo al agente que influencian su a
 | **Dinámico** | el entorno cambia mientras el agente está deliberando |
 | **Estático** | el entorno no cambia mientras el agente delibera |
 |||
-| **Discreto** | | 
-| **Contínuo** | |
+| **Discreto** | el entorno tiene una cantidad de estados no contínua, usualmente finita |
+| **Contínuo** | el entorno cuenta con domínios contínuos, por ejemplo tiempo |
 |||
-| **Conocidos** | |
-| **Desconocidos** | |
+| **Conocidos** | los resultados de todas las posibles acciones del agente en el entorno son conocidas |
+| **Desconocidos** | los resultados de todas las posibles acciones del agente son desconocidas |
 
-Por ejemplo para los siguientes agentes se pueden analizar sus entornos:
+---
 
-| Característica | Solitario | Compra por Internet | Taxi Autónomo | Ajedrez con Reloj | Diagnóstico Médico | Controlador Refinería |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Observable** | No | Sí | No | Sí | No | No |
-| **Determinista** | No | Sí | No | No | No | No |
-| **Secuencial** | Sí | Sí | Sí | Sí | Sí | Sí |
-| **Estático** | Sí | No | No | Sí | Sí | No |
-| **Discreto** | Sí | Sí | No | Sí | Sí | No |
-| **Mono-agente** | Sí | Sí | No | No | Sí | Sí |
+### Agente
 
-### Agentes
+##### ¿Qué es un agente?
 
-La IA se define com el estudio de **agentes racionales**. Un agente racional es cualquier cosa que tome decisiones. Para tomar decisiones toman en cuenta percepciones pasadas y actuales.
+Un agente racional es cualquier cosa que tome decisiones. Para tomar decisiones toman en cuenta percepciones pasadas y actuales. Un sistema de IA está compuesto por un agente y su entorno. Los agentes **actúan** en su entorno. Bajo su entorno, un agente es cualquier cosa que:
 
-Un sistema de IA está compuesto por un agente y su entorno. Los agentes **actúan** en su entorno.
-Bajo su entorno, un agente es cualquier cosa que:
-* percibe su entorno a partir de sensores
-* actuar sobre su entorno a partir de actuadores
+* Percibe su entorno a partir de sensores
+* Actua sobre su entorno a partir de actuadores
 
 Los agentes tienen dos componentes primordiales:
 * **Arquitectura:** La manifestación física de un agente que aloja un programa agente.
@@ -157,11 +217,17 @@ Los agentes tienen dos componentes primordiales:
 
 ![agente](https://imgur.com/zGmeBA5.png)
 
-El agente percibe de su entorno mediante **sensores**, y dependiendo de lo percibido realiza acciones mediante **actuadores**.
+##### PEAS
+Para diseñar un agente se deben tomar en cuenta sus **PEAS**. Corresponden con sus siglas en inglés:
 
-Se debe tener una **medida de rendimiento** que define que tan efectiva es la racionalidad del agente. Se desea que el agente maximice dicha medida. Esa medida de rendimiento es una función del impacto que tenga el agente en el entorno que existe. Las acciones por parte del agente pueden incrementar o decrementar esa medida.
+| Aspecto | Descripción |
+| :---: | :--- |
+| **Performance** | Una medida de rendimiento que define que tan efectiva es la racionalidad del agente. El agente debe minimizar o maximizar esta medida. Mide el impacto que tenga el agente en su entorno. Las acciones por parte del agente pueden incrementar o decrementarla. |
+| **Environment** | El entorno en el que vive el agente. Esto será abordado a más detalle en la siguiente sección de este cuaderno. |
+| **Actuators** | Medios que utiliza el agente para realizar acciones en su entorno. |
+| **Sensors** | Medios que utiliza el agente para percibir su entorno. |
 
-En general, para diseñar un agente se deben tomar en cuenta los **PEAS** (performance, environment, actuators, sensors). Por ejemplo en un servicio de taxi autónomo:
+Por ejemplo en un servicio de taxi autónomo:
 
 | Taxi Autónomo | Ejemplos |
 | :--- | :--- |
@@ -172,77 +238,65 @@ En general, para diseñar un agente se deben tomar en cuenta los **PEAS** (perfo
 
 ---
 
-leer seccion de agentes del libro de IA, task environments
+### Inteligencia
 
-1era clase----------------------------------------------------------
+##### ¿Qué es inteligencia?
 
-leer capitulo historia de la inteligencia artificial
+Es la habilidad para adquirir y aplicar conocimiento, analizando el sentido que puede tomar una proposición, dicho o expresión.
 
-hacer linea de tiempo con los avances y personajes importantes en portafolio
+##### ¿Qué es inteligencia artificial?
 
-Disciplinas relacionadas a IA:
-    Matemáticas (Computación, Probabilidad, Lógica)
-    Economía (teoría de desición, teoría de juegos)
-    Filosofía (Racionalismo, Dualismo)
-    Neurociencia
+Disciplina científica para crear programas informáticos que utilicen razonamiento lógico y se comporte como la mente humana. Se utiliza para tareas que:
+* Son repetitivas
+* Consumen muchos recursos si se delegan a humanos
+* Son muy peligrosas, o requieren mucha precisión
 
-AGENTES:   
-    se busca que comporten 
+##### Disciplinas relacionadas a IA:
 
-INTELIGENCIA:
-    habilidad para adquirir y aplicar conocimiento
-    analizar el sentido que puede tomar una proposición, dicho o expresión
+* Matemáticas (Computación, Probabilidad, Lógica)
+* Economía (teoría de desición, teoría de juegos)
+* Filosofía (Racionalismo, Dualismo)
+* Neurociencia    
 
-INTELIGENCIA ARTIFICIAL:
-    Disciplina científica para crear programas informáticos que utilicen razonamiento lógico y se comporte como la mente humana. Se utiliza para:
-        Tareas repetitivas
-        Las tareas consumen muchos recursos si se delegan a humanos
-        Tareas muy peligrosas, o con mucha precisión
+!> agregar linea de tiempo con los avances y personajes importantes
 
-Metodología del curso
+---
 
-Primera parte clase magistral, segunda ejercicios
+### Información General
 
-Clases laboratorios investigaciones y tareas y proyecto grupal final quices exposiciones
+[Carta del curso](recursos/ia/IC_6200_Inteligencia_Artificial_-_2020_-_02.pdf ':ignore')
 
-proactividad es clave
+| | |
+| :--- | :--- |
+| Profesora | Adriana Álvarez |
+| Correo | aalvarez@itcr.ac.cr |
+| Horario de consulta | Viernes de 3:30p.m. a 5:30p.m. |
 
-hay actividades lúdicas
+El curso sera evaluado así:
 
-quices (pueden ser sorpresa)
+| Evaluación  | Peso |
+| :--- | :---: |
+| Examen 1 | 15% |
+| Examen 2 | 10% |
+| Laboratorio y otros | 50 % |
+| Quices, otros | 20% |
+| Portafolio | 5% |
 
-Código de curso en el subject
+##### Notas Importantes:
 
-entrega de proyecto:
-    defensa
-    bibliografía APA 6
-
-entregables de evaluaciones:
-    tecdigital
-    Entrega por correo electrónico al profesor y asistente con copia a todos los integrantes del grupo antes de la fecha y hora límites.
-    Se entrega en ZIP no RAR.
-
-Evaluaciones:
-    Laboratorios
-            Colab - Jupiter y HTML para laboratorios
-            Se pueden terminar extraclase
-    Investigaciones
-    Tareas
-    Quices
-    Exposiciones:
-        Comunicación formal
-        Faltar a una presentacion resta 30% de la nota al integrante del grupo
-    Exámenes:
-        15% después de redes neuronales
-        10% final
-    Portafolio de evidencias:
-        Resumen gráfico de cada clase del semestre con material reciclado
-
-Collab search:
-    Jupiter y HTML para laboratorios
-
-Libros:
-    artificial intelligence a modern approach
-
-Dudas de notas:
-    5 días hábiles para apelar notas
+* 5 días hábiles para apelar notas
+* El portafolio es un resumen gráfico de cada clase del semestre con material reciclado
+* Se envía un archivo de HTML y el Jupyter fuente en el TEC Digital
+* Se entrega en ZIP, no RAR
+* Las bibliografías deben ser APA 6
+* Respecto a exposiciones:
+    * Comunicación formal
+    * Faltar a una presentacion resta 30% de la nota al integrante del grupo
+* El asunto de todo correo enviado a la profesora debe incluir el código de curso:
+```
+IC-6200 Resto del subject
+```
+* Todo nombre de archivo enviado en el TEC Digital debe tener el siguiente formato:
+```
+IC-6200_nombre#n.ext
+```

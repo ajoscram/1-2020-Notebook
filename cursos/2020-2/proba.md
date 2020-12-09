@@ -19,7 +19,7 @@
 |
 | 12 | [Distribución Normal](recursos\proba\materia\semana12_Solu_Normal.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/1D-DSh22Fpg) |
 | 13 | [Otras Distribuciones de Probabilidad Contínua](recursos\proba\materia\Semana13_SOLU_Otras_VAC.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/p6eqD8NrNrw) [🎞️](https://youtu.be/qTafWIKAOV8) [🎞️](https://youtu.be/exJiuy_hLms) |
-| 14 | [Suma y Promedio de Normales y Desigualdades](recursos\proba\materia\Semana14_SOLU_Suma_y_promedio_Normales.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/SD24edQpQO0) |
+| 14 | [Suma y Promedio de Normales y Desigualdades](recursos\proba\materia\Semana14_SOLU_Suma_y_promedio_Normales.pdf ':ignore') | [📝](recursos\proba\tareas\Tarea_S14.pdf ':ignore') | [🎞️](https://youtu.be/SD24edQpQO0) |
 | 15 | [Teorema del Límite Central](recursos\proba\materia\semana15_Solu_TLC.pdf ':ignore') | [📝]( ':ignore') | [🎞️](https://youtu.be/1_xwjki12cs) |
 | 16 | [Práctica Parcial 3]() | [📝]() | *No hay* |
 
