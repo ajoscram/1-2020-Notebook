@@ -1,3 +1,28 @@
+### K-Means Cluster
+
+Es un algoritmo de aprendizaje no supervisado.
+
+Exclusivo, fuzzy, overlapping, ward, probabilístico, jerárquico.
+
+**Pasos**
+1. Escoge cantidad de clusters.
+2. Se seleccionan k **centroides** en diferentes localizaciones del conjunto de datos, preferiblemente lejos unos de otros.
+3. Se toma cada punto del conjunto de datos y se agrupa con el centroide apropiado. Se repite ese paso hasta que todos los puntos son asignados.
+4. Se recalculan los nuevos $k$ centroides.
+5. Se repiten los puntos 3 y 4 hasta que no los centroides asignados no cambien más o un número de iteraciones predefinido.
+
+### Redes Recurrentes
+
+Las redes neuronales o convolucionales no pueden procesar secuencias de datos o crear datos nuevos. El tamaño de los datos que se utilizan debe ser fijo. Por otra parte, las **redes neuronales recurrentes** pueden reutilizar sus salidas para procesar sequencias de datos. Se puede apreciar su arquitectura a continuación:
+
+![rnn](https://imgur.com/AaLxu0t.png)
+
+Donde:
+* $y_t$ es la activación normal
+* $x_t$ es la entrada en secuencia
+* $a_{t-1}$ es la activación oculta anterior
+* $a_t$ es la activación oculta actual
+
 ```
 Clase 13/11/2020
 

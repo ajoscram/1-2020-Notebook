@@ -1,10 +1,13 @@
 - [**Portada**](/)
-- **2 Semestre 2020:**
+- **1 Semestre 2021**
+    - [Práctica Profesional](/cursos/2021-1/practica.md)
+    - [Estadística](/cursos/2021-1/estadistica.md)
+- **2 Semestre 2020**
     - [Inteligencia Artificial](/cursos/2020-2/ia.md)
     - [Probabilidades](/cursos/2020-2/proba.md)
     - [Proyecto de Ingeniería de Software](/cursos/2020-2/proyecto.md)
     - [Información de Práctica Profesional](/cursos/2020-2/practica.md)
-- **1 Semestre 2020:**
+- **1 Semestre 2020**
     - [Bases de Datos II](/cursos/2020-1/bases.md)
     - [Desarrollo de Emprendedores](/cursos/2020-1/emprendedores.md)
     - [Investigación de Operaciones](/cursos/2020-1/io.md)

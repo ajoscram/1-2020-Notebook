@@ -1,10 +1,69 @@
 ![https://imgur.com/aCTUu8A.jpg](https://imgur.com/aCTUu8A.jpg)
 ![https://imgur.com/RREhkns.jpg](https://imgur.com/RREhkns.jpg)
 
+Dudas y anteproyectos a `computacion-practica@itcr.ac.cr`.
+
 | Link de reunión | Contraseña |
 | :--- | :---: |
 | [Mañana](https://itcr.zoom.us/j/84845822777) | IC2020 |
 | [Tarde](https://itcr.zoom.us/j/86134254547) | IC2020 |
+
+### Daytona Soft
+
+#### Características {docsify-ignore}
+* Procesos logísticos complejos que requieren procesos contables.
+* Mucho Oracle.
+* Desarrollan ERPs.
+* Sede central en Plaza Tempo, Escazú.
+
+#### Aplicar {docsify-ignore}
+* Ayuda con `eduardo.gutierrez@daytonasoft.com`
+* Solicitudes a `rh@daytonasoft.com`
+* Telefono: 4000-1804
+
+---
+
+### Backcountry
+
+#### Características {docsify-ignore}
+* Misión: conectar a las personas con sus pasiones.
+* Hacen implementos para outdoors.
+* Teletrabajo
+* Reembolso de teléfono celular e internet.
+* Equipos pequeños de desarrollo: 4 a 5 personas.
+* Testing y creación de herramientas internas.
+
+#### Aplicar {docsify-ignore}
+* Enviar curriculum a `najimenez@backcountry.com` hasta el 30 de noviembre.
+* Entrevista.
+* Información mediante email.
+
+---
+
+### Avántica
+
+#### Características {docsify-ignore}
+* Encora es la empresa padre.
+* Desarrollo de software.
+* Java, .Net, Angular, React, QA, Android, Python
+
+#### Aplicar {docsify-ignore}
+* Pre-screening, evaluación técnica, entrevista con HR de soft-skills, y entrevista con cliente.
+* Enviar CV a `fabiana.alpizar@avantica.com`
+* Celular: `89465911`
+
+---
+
+### 4E Consulting Group 👁️
+
+#### Características {docsify-ignore}
+* Microservicios.
+* UNIX, scripting, bash y Java y Javascript.
+
+#### Aplicar {docsify-ignore}
+* Desconocido.
+
+---
 
 ### Mobilize 👁️
 
@@ -75,6 +134,17 @@
 #### Aplicar {docsify-ignore}
 * Curriculum a: info@fairplaylabs.com.
 * Están buscando un total de 2 practicantes máximo.
+
+---
+
+### Akurey
+
+#### Características {docsify-ignore}
+* Soluciones digitales.
+
+
+#### Aplicar {docsify-ignore}
+* 
 
 ---
 
@@ -194,7 +264,7 @@
 
 #### Aplicar {docsify-ignore}
 * Junior y Mid Backend Developer
-* Junios Frontend Developer
+* Junior Frontend Developer
 * Más información en: https://www.estudiomanati.com/empleos/
 * Más preguntas con: beto@estuiomanati.com
 * Enlace a la charla: https://drive.google.com/file/d/12Gsvlx0SstVW5J_e2euuvQL8cB2CbUTQ/view
