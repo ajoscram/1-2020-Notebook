@@ -1,6 +1,6 @@
 ### Working From Home Template
 
-Enviar a `wfh@mobilize.net`.
+Enviar a wfh@mobilize.net.
 
 ##### Regular
 ```
@@ -34,24 +34,32 @@ Objetivos completados:
     1) 
 ```
 
-### Notas
-* 3 informes con dos notas cada uno: 50% del profesor asesor y 50% de la empresa.
-* Al final hay un artículo de investigación y una presentación final del proyecto realizado.
-* Formulario de Visitas del profesor asesor está en el programa de curso.
-* Cartas para las empresas son entregadas mediante PDF.
-* Solicitud de carta de Póliza: Cajera: Laura Coto Calderon lcoto@itcr.ac.cr.
-* Secretaria: Ana Lucía Arias Jiménez alarias@itcr.ac.cr.
+### Cronograma
 
-### Profesor Asesor
+![Cronograma](https://i.imgur.com/ESrCjt1.png)
 
-* Cada estudiante tiene un profesor asesor.
-* Profesor asesor se asigna en la segunda semana de clases.
-* Esta semana se enviará un formulario con la lista de profesores asesores.
+### Evaluaciones
 
-| | |
+📄 [**Formato de Informes**](recursos/practica/formato-informes.pdf ':ignore')
+
+| Evaluación | Semana | Fecha | Nota Profesor |  Nota Mentor |
+| :--- | :--: | :---: | :--: | :--: |
+| Primer Informe | 6 | Marzo 26 | 14 | 10 |
+| Segundo Informe | 11 | Abril 30 | 14 | 10 |
+| Tercer Informe | 16 | Junio 11 | 22 | 15 |
+| Presentación final | 16 | Junio 11 | 5 | 0 |
+| Artículo de investigación | 16 | Junio 11 | 5 | 0 | 
+| Participación en actividades de práctica | N/A | N/A | 5 | 0 |
+
+##### Notas:
+* Al final de cada sprint se debe entregar un informe pequeño de todo lo hecho.
+* Habrá una reunión por cada informe entregado. Se debe crear una minuta de reunión por cada reunión.
+* El artículo de investigación debe tener el formato IEEE.
+
+### Información General
+
+| Profesora | Alicia Salazar |
 | :--- | :--- |
-| Correo General | `computacion-practica@itcr.ac.cr` |
-| Profesor | ? |
-| Correo |  |
-| Teléfono |  |
-| Horario de consulta |  |
+| Correo Profesora | alicia.salazar.h@gmail.com |
+| Correo Práctica | computacion-practica@itcr.ac.cr |
+| Carta del Curso | [📄](recursos/practica/carta-practica.pdf ':ignore') |
