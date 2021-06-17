@@ -1,44 +1,10 @@
-### Working From Home Template
-
-Enviar a wfh@mobilize.net.
-
-##### Regular
-```
-Buenos días!
-Contacto a: 88903408
-Cronograma:
-    1) Trabajo de 9 a.m. a 1 p.m.
-    2) Almuerzo de 1 p.m. a 2 p.m.
-    3) Trabajo de 2 p.m. a 6 p.m.
-Objetivos del día:
-    1) 
-```
-
-##### Jueves
-```
-Buenos días!
-Contacto a: 88903408
-Cronograma:
-    1) Trabajo de 9 a.m. a 1 p.m.
-    2) Almuerzo de 1 p.m. a 2 p.m.
-    3) Trabajo de 2 p.m. a 3 p.m.
-Objetivos del día:
-    1) 
-```
-
-##### Resultados del día
-```
-Hasta mañana!
-Contacto a: 88903408
-Objetivos completados:
-    1) 
-```
-
 ### Cronograma
 
 ![Cronograma](https://i.imgur.com/ESrCjt1.png)
 
 ### Evaluaciones
+
+📄 [**Evaluación de la Carrera**](https://forms.gle/x7T6H8FPyh5ipXxv6)
 
 📄 [**Formato de Informes**](recursos/practica/formato-informes.pdf ':ignore')
 

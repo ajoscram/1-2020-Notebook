@@ -1,4 +1,6 @@
 - [**Portada**](/)
+- **2 Semestre 2021**
+    - [Graduación](/cursos/2021-2/graduacion.md)
 - **1 Semestre 2021**
     - [Práctica Profesional](/cursos/2021-1/practica.md)
     - [Estadística](/cursos/2021-1/estadistica.md)
